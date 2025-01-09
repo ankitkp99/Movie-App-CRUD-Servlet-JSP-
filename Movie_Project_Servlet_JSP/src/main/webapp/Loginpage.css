@@ -1,0 +1,47 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    background-image: url('moviebgimg.jpg');
+    background-size: cover;
+}
+.loginform{
+	margin: auto;
+	margin-top: 100px;
+	width: 25%;
+	height: 400px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 40px 40px;
+	font-size: 22px;
+	background: white;
+	border-radius: 10px;
+}
+.loginform h2{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.loginform input{
+	width:80%;
+	height: 28px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding-left: 5px;
+}
+.loginform button{
+	height: 30px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	background: green;
+	color: white;
+	border-radius: 5px;
+}
+.loginform p{
+	font-size: 16px;
+}
